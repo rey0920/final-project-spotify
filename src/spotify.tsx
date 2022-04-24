@@ -1,7 +1,7 @@
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 
 const clientId = "7d7931b0de414be0bcc257d546372010";
-const redirectUri = "http://localhost:3000/";
+const redirectUri = "https://final-project-spotify-beta.vercel.app/";
 const scopes = [
   "user-read-currently-playing",
   "user-read-recently-played",
